@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'prelaunch/css/dormserv.css' %}"/>
+
+<!DOCTYPE html>
+
+<head>
+	<title>Over Easy</title>
+
+</head>
+
+<html>
+
+	<div id="wrap">
+		<div id="rectangle">
+			<div id="logo">
+				<img src="img/logo.png" class="center" width=300px>
+			</div>
+			<div id="center_text">
+				<img src="img/text.png" class="center" width=300px>
+			</div>
+			<div id="input_form">
+				<form id="user_form" method="post" action="register" >
+					<input id="email" placeholder="Email">
+				</form>
+
+			</div>	
+			<div id="button">
+				<a href="/menu.html">
+    			<img src="img/button.png" class="center" width="186" height="43" alt="submit" />
+    			</a>
+			</div>	
+
+	</div>
+
+</html>
